@@ -1,0 +1,35 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install cors dependency",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install",
+				"cors"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Install multer for file upload",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install",
+				"multer"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Install mysql2 dependency",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install",
+				"mysql2"
+			],
+			"isBackground": false
+		}
+	]
+}
